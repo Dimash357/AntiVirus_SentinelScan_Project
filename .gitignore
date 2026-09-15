@@ -1,0 +1,72 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+
+.vscode/
+.idea/
+
+# Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration
+
+.env
+.env.*
+!.env.example
+
+# Application logs and local data
+
+*.log
+.sentinelscan_history.json
+sentinelscan_history.json
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Local malware samples
+
+samples/
+malware/
+quarantine/
+
+# Generated executables
+
+*.exe
+*.msi
+
+# Local development files
+
+.vscode/
+.idea/
+
